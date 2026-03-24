@@ -73,7 +73,7 @@ const JobList = ({ adminView = false }) => {
               <Typography variant="h5" fontWeight={700}>Admin Dashboard</Typography>
               <Typography variant="body2" color="text.secondary">
                 {(search || location || type)
-                  ? `${filteredJobs.length} of ${jobs.length} jobs`
+                  ? `${filteredJobs.length} of ${jobs.filter(job => job?.company).length} jobs`
                   : `${jobs.length} jobs`}
               </Typography>
             </Box>
