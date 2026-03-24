@@ -58,11 +58,6 @@ REACT_APP_API_URL=http://localhost:5000/api
 
 npm start
 
-Deployment
-
-The frontend is deployed on Netlify.
-
-Environment variable used in production:
 ---
 ### Deployment 
 The frontend is deployed on Netlify.
