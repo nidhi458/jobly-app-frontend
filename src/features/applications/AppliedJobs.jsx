@@ -106,7 +106,7 @@ const AppliedJobs = () => {
     setError('');
 
     try {
-      const response = await fetch('${process.env.REACT_APP_API_URL}/api/jobs/applications', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/jobs/applications`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
