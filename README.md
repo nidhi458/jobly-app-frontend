@@ -62,3 +62,7 @@ npm start
 ### Deployment 
 The frontend is deployed on Netlify.
 REACT_APP_API_URL=https://jobly-0g1m.onrender.com/api
+
+Author
+
+Nidhi D B
